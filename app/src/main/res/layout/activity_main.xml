@@ -40,6 +40,39 @@
             android:layout_height="match_parent"
             android:layout_width="match_parent">
         <Button
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_m"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_m"
+                android:textSize="@dimen/butt_size"/>
+        <Button
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_del"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_del"
+                android:textSize="@dimen/butt_size"/>
+        <Button
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_proc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_proc"
+                android:textSize="@dimen/butt_size"/>
+        <Button
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_delete"
+                android:textSize="@dimen/butt_size" />
+    </TableRow>
+
+    <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        <Button
 android:layout_margin="@dimen/button_margin"
                 android:id="@+id/b_1"
                 android:layout_width="match_parent"

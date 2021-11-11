@@ -17,4 +17,8 @@
     <string name="button_0">0</string>
     <string name="button_point">.</string>
     <string name="button_r">=</string>
+    <string name="button_m">*</string>
+    <string name="button_del">/</string>
+    <string name="button_delete">d</string>
+    <string name="button_proc">%</string>
 </resources>
