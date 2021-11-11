@@ -14,4 +14,7 @@
     <string name="button_8">8</string>
     <string name="button_9">9</string>
     <string name="b_c">c</string>
+    <string name="button_0">0</string>
+    <string name="button_point">.</string>
+    <string name="button_r">=</string>
 </resources>

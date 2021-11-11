@@ -134,5 +134,31 @@ android:layout_margin="@dimen/button_margin"
                 android:text="@string/button_dec"
                 android:textSize="@dimen/butt_size" />
     </TableRow>
+    <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        <Button
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_0"
+                android:textSize="@dimen/butt_size"/>
+        <Button
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_point"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_point"
+                android:textSize="@dimen/butt_size"/>
+        <Button
+                android:layout_span="2"
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_r"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_r"
+                android:textSize="@dimen/butt_size"/>
 
+    </TableRow>
 </TableLayout>
