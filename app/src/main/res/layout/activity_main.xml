@@ -40,29 +40,32 @@
             android:layout_height="match_parent"
             android:layout_width="match_parent">
         <Button
-
+android:layout_margin="@dimen/button_margin"
                 android:id="@+id/b_1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/button_1"
                 android:textSize="@dimen/butt_size"/>
         <Button
+                android:layout_margin="@dimen/button_margin"
                 android:id="@+id/b_2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/button_2"
                 android:textSize="@dimen/butt_size"/>
         <Button
+                android:layout_margin="@dimen/button_margin"
                 android:id="@+id/b_3"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/button_3"
                 android:textSize="@dimen/butt_size"/>
         <Button
-                android:id="@+id/b_dec"
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_c"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:text="@string/button_dec"
+                android:text="@string/b_c"
                 android:textSize="@dimen/butt_size"/>
     </TableRow>
 
@@ -70,24 +73,28 @@
             android:layout_height="match_parent"
             android:layout_width="match_parent">
         <Button
+                android:layout_margin="@dimen/button_margin"
                 android:id="@+id/b_4"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/button_4"
                 android:textSize="@dimen/butt_size"/>
         <Button
+                android:layout_margin="@dimen/button_margin"
                 android:id="@+id/b_5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/button_5"
                 android:textSize="@dimen/butt_size"/>
         <Button
+                android:layout_margin="@dimen/button_margin"
                 android:id="@+id/b_6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/button_6"
                 android:textSize="@dimen/butt_size"/>
         <Button
+                android:layout_margin="@dimen/button_margin"
                 android:id="@+id/b_sum"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -95,6 +102,37 @@
                 android:textSize="@dimen/butt_size" />
     </TableRow>
 
-
+    <TableRow
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+        <Button
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_7"
+                android:textSize="@dimen/butt_size"/>
+        <Button
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_8"
+                android:textSize="@dimen/butt_size"/>
+        <Button
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_9"
+                android:textSize="@dimen/butt_size"/>
+        <Button
+                android:layout_margin="@dimen/button_margin"
+                android:id="@+id/b_dec"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/button_dec"
+                android:textSize="@dimen/butt_size" />
+    </TableRow>
 
 </TableLayout>
